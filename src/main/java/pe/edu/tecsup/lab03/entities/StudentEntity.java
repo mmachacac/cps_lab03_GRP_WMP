@@ -2,6 +2,13 @@ package pe.edu.tecsup.lab03.entities;
 
 public class StudentEntity {
 
-    // Agregado del Colaborador 01 => William Lipa
+    private String nombre;
 
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
 }
